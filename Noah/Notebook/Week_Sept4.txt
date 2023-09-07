@@ -28,3 +28,21 @@ Tasks -
     - Budget
     - 
   Attend meeting
+
+
+
+
+Lecture notes --
+  Client Interview Guidelines
+    Simple requirements can be overlooked
+    Watch for priorities
+    whys - ask lots of whys to get to the root problem
+    identify technologies that are essential to the pornlem or potential directions for solution
+    Comparable products - learn about these
+  Goal of interview - what they want, what they need, the scope of the project, prior work, create a relationship with the client
+  Collect enough information so that I can create a LIST OF REQUIREMENTS so that we can know when we are done
+  ---------------------------------------------------------------------------------
+  -------------NEED TO MAKE A PRODUCT REQUIREMENTS DOCUMENT EVENTUALLY-------------
+  ---------------------------------------------------------------------------------
+
+
