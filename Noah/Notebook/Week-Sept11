@@ -1,0 +1,46 @@
+9/11 Meeting
+
+Dr. Vakanski & Molly primarily - Xian Gao came in later
+
+Overview of the project/problem:
+Pations go to physical therapist, and then are assigned exercises to do at home. they usually give up without tailored
+feedback. Hiring a PT is inefficient and expensive. Following excersises on paper is ineficient and inaccurate
+
+We must collect video data (including good movements and bad movements), then process the movements (using other 
+models that we may have to fine-tune), build a model that outputs score and text, and IF ABLE, (NOT REQUIRED), make an
+app that will use smart phone video to easily film and provide the models feedback
+
+--------------------------------------------------------
+My Questions and answers:
+
+Which rehabilitation excercises should we have models for? How many?
+ - Start with Squat, then add more when that works sufficiently
+
+Will we have a different model for each exercise?
+ - No. This question was not asked explicitly, but the model should recognize what exercise
+   is being performed and provide feedback in the form of text
+
+What outputs will the model generate? Quality Score vs. "Identify incorrect movement elements"?
+ - Now i know that the model will be generating text as a response to the input -
+   the text will say what in particular was wrong
+ - E.g. Squats - don't let the heels come up, don't round back, go lower etc.
+
+Can we use pre-built models?
+ - YES
+ - I found https://www.geeksforgeeks.org/python-opencv-pose-estimation/ and https://github.com/CMU-Perceptual-Computing-Lab/openpose/tree/master
+   - Dr. Vakanski did not speak about these specifically
+ - He mentioned some papers that combine LLM with movement data, and sent links to them
+  - MotionGPT?
+ - We still may need to find skeletal joint extraction libraries
+
+Budgeting - Access to a GPU campus server is free. This project will have no expenses and no budget
+
+We can meet with Dr. Vakanski regularly if we want to, or whenever we have questions
+
+-----------------------------------------------------------------------------------
+TO DO 
+
+Read the papers that Dr. Vakanski has sent us
+ - I uploaded these papers to this github for easy access
+These papers reference existing models. Test them out, see what outputs they can produce
+Schedule a team meeting to discuss a rough outline of project and short term goals
