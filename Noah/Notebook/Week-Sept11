@@ -64,3 +64,30 @@ Check out schedule templates on uidaho mindworks
 
 Budget - This does not apply to us
 Shop resources - Also does not apply to us
+
+
+======================================
+9/14 Lecture notes
+
+Project managers are hated because they have to nag the other engineers.
+There are free project management softwares - Project Libre
+ - However, its probably easier to just set up some excel tables to keep track of management
+
+Basic steps in project managment:
+ 1. Define project: Ddeliverables, specifications, completion criteria
+ 2. generate tasks: > Deliverables, Milestones
+                  > Work Breakdown structure 
+ 3. determine roles responsibilities: Who owns what, subject matter experts, by dicipline etc
+ 4. determine task sequence/critical path: Predecessor tasks, parallel tasks, estimate duration of tasks
+ 5. develop schedule: start at end date and work backwards
+                  > early start dates, latest start dates, and early/ late end dates
+                  > Save ALL slack time for April
+ 6. determine resource availabilty: Balance workloads and responsibilies according to availability of resources
+ 7. stablish budget: after everything is mapped out, then we can add costs up
+ 8. analyze risks and contigency plans: likely things that would prevent the project from succeeding -> prevention, mitigation 
+ 9. track and manage project: weekly updates, track effort/timeline, shift resources if necessary
+ 10. post project review: Good bad and ugly
+
+
+
+
