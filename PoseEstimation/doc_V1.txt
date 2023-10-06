@@ -1,0 +1,19 @@
+I modeled my code off of code in this blog post:
+  https://spyjetson.blogspot.com/2021/03/running-openpose-models-directly-from.html
+
+V1.ipynb places red dots at estimated joint locations of a photo of any size.
+
+There are photo scale issues. 
+  In the section of code that looks like this:
+    .append(CONST*point[0], CONST*point[1])
+  you will need to adjust the CONST value so that the points line up with the photo
+  I have not yet figured out how to find the correct scale factor except by guess and check
+
+  I also don't understand what some of the parameters are for image 'blobification'
+      i think these might have something to do with the above issue
+
+Other issues:
+    I cannot halt the kernel after running this script. I can only restart it. Very annoying
+      Maybe just with my machine??? someone verify please.
+      
+  
