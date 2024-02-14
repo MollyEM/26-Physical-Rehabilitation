@@ -1,0 +1,15 @@
+Download the most recent body_25 openpose caffe model here:
+
+  https://www.dropbox.com/s/3x0xambj2rkyrap/pose_iter_584000.caffemodel?dl=0
+
+---------------------------------------------------------------------------
+The file is 105 mb, and was therefore too large to store on the 
+openpose github repository:
+  https://github.com/CMU-Perceptual-Computing-Lab/openpose/tree/master
+
+The scripts that they used to quickstart commanded a download of the models from:
+  http://posefs1.perception.cs.cmu.edu/OpenPose/models/pose/body_25/pose_iter_584000.caffemodel
+however, this website is down, and has been down for a long time now.
+
+I found the link to the model stored in a open pose contributor's dropbox on this forum:
+  https://github.com/CMU-Perceptual-Computing-Lab/openpose/issues/1567
