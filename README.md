@@ -1,4 +1,6 @@
-Using Deep Learning to Provide Feedback for Remote Physical Rehabilitation 
+Using Deep Learning to Provide Feedback for Remote Physical Rehabilitation  A black background with white text
+
+Description automatically generated
 
 Team Name: Remote Rehabilitation
 
