@@ -23,7 +23,7 @@
 <h3>Progress</h3>
 <p>Able to extract skeletal joints from .avi videos for each frame by using OpenPose body_25 model.</p>
 <p>Preprocessed data for input into neural network model for training</p>
-<img src="(https://github.com/MollyEM/26-Physical-Rehabilitation/blob/main/Project%20Learning/Scripts%20with%20Videos/RandomlySelectedSequences.png)" alt = "Joint Positions vs Frame Count for Random Episodes​">
+<img src="https://github.com/MollyEM/26-Physical-Rehabilitation/blob/main/Project%20Learning/Scripts%20with%20Videos/RandomlySelectedSequences.png" alt = "Joint Positions vs Frame Count for Random Episodes​">
 
 <h3>Currently Working On:</h3>
 <ul>
