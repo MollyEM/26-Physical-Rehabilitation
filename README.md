@@ -25,6 +25,8 @@
 <p>Preprocessed data for input into neural network model for training</p>
 <img src="https://github.com/MollyEM/26-Physical-Rehabilitation/blob/main/Project%20Learning/Scripts%20with%20Videos/RandomlySelectedSequences.png" alt = "Joint Positions vs Frame Count for Random Episodes​">
 <img src = "https://github.com/MollyEM/26-Physical-Rehabilitation/blob/main/Project%20Learning/Scripts%20with%20Videos/Prediction_Acc_graphs.png" alt = "Comparison between Predicted Quality and Label​">
+<p>Improved Sequence data from Smoothing Algorithm and Episode Split</p>
+<img src = "" alt = "Improved Joint Positions vs Frame Count for Random Sequences">
 
 <h3>Currently Working On:</h3>
 <ul>
