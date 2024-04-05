@@ -10,7 +10,14 @@
 <p>When patients incorrectly perform physical therapy exercises their doctor suggests following an injury, their recovery time is extended, leading to financial and physical strain. By adjusting a deep learning model that analyzes videos of clients exercising remotely, we can provide real time feedback potentially resulting in improved rehabilitation outcomes.</p>
 
 <h3>Background</h3>
-<a href = "https://github.com/avakanski/A-Deep-Learning-Framework-for-Assessing-Physical-Rehabilitation-Exercises"> </a>
+<p>Link to Original Deep Learning Model Developed by our Client! This learning model was developed using Vicon and Kinect angular data.
+  <a href = "https://github.com/avakanski/A-Deep-Learning-Framework-for-Assessing-Physical-Rehabilitation-Exercises" alt = "Deep Learning Framework"> </a>
+Link to the paper published by Dr. Alexsandar Vakanski and Dr. Min Xian who developed this model.
+  <a href = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7032994/" alt = "Paper">
+</p>
+<p>Link to the Database of collected exercises used for training on our model.
+  <a href = "https://www.webpages.uidaho.edu/ui-prmd/" alt = "UIPRMD Database" >
+</p>
 <a href = "https://github.com/CMU-Perceptual-Computing-Lab/openpose"></a>
 <h3>Product Requirements</h3>
 <ul>
@@ -26,7 +33,7 @@
 <img src="https://github.com/MollyEM/26-Physical-Rehabilitation/blob/main/Project%20Learning/Scripts%20with%20Videos/RandomlySelectedSequences.png" alt = "Joint Positions vs Frame Count for Random Episodes​">
 <img src = "https://github.com/MollyEM/26-Physical-Rehabilitation/blob/main/Project%20Learning/Scripts%20with%20Videos/Prediction_Acc_graphs.png" alt = "Comparison between Predicted Quality and Label​">
 <p>Improved Sequence data from Smoothing Algorithm and Episode Split</p>
-<img src = "" alt = "Improved Joint Positions vs Frame Count for Random Sequences">
+<img src = "https://github.com/MollyEM/26-Physical-Rehabilitation/blob/main/Final%20Design%20Documentation/Smoothed%20Sequences.png" alt = "Improved Joint Positions vs Frame Count for Random Sequences">
 
 <h3>Currently Working On:</h3>
 <ul>
