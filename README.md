@@ -35,9 +35,16 @@ Link to the paper published by Dr. Alexsandar Vakanski and Dr. Min Xian who deve
 <p>Improved Sequence data from Smoothing Algorithm and Episode Split</p>
 <img src = "https://github.com/MollyEM/26-Physical-Rehabilitation/blob/main/Final%20Design%20Documentation/Smoothed%20Sequences.png" alt = "Improved Joint Positions vs Frame Count for Random Sequences">
 
+<p>Improved Training Loss</p>
+<img src = "https://github.com/MollyEM/26-Physical-Rehabilitation/blob/main/Final%20Design%20Documentation/Smoothed%20Sequences.png" alt = "Improved training loss">
+
+<p>Improved Training Vs Testing Predictions</p>
+<img src = "https://github.com/MollyEM/26-Physical-Rehabilitation/blob/main/Final%20Design%20Documentation/Smoothed%20Sequences.png" alt = "Improved Training Vs Testing Predictions">
+
 <h3>Currently Working On:</h3>
 <ul>
   <li>Improving episode split to have more accurate sequences for training</li>
+  <li>Analyzing single episode videos uploaded by the user and producing an accuracy score by using the model to predict score</li>
   <li>Adding more exercises!</li>
 </ul>
 </body>
