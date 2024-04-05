@@ -11,14 +11,14 @@
 
 <h3>Background</h3>
 <p>Link to Original Deep Learning Model Developed by our Client! This learning model was developed using Vicon and Kinect angular data.
-  <a href = "https://github.com/avakanski/A-Deep-Learning-Framework-for-Assessing-Physical-Rehabilitation-Exercises" alt = "Deep Learning Framework"> </a>
+  <a HREF = "https://github.com/avakanski/A-Deep-Learning-Framework-for-Assessing-Physical-Rehabilitation-Exercises" alt = "Deep Learning Framework"> Click Here.</a>
 Link to the paper published by Dr. Alexsandar Vakanski and Dr. Min Xian who developed this model.
-  <a href = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7032994/" alt = "Paper">
+  <a href = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7032994/" alt = "Paper"> Click Here.</a>
 </p>
 <p>Link to the Database of collected exercises used for training on our model.
-  <a href = "https://www.webpages.uidaho.edu/ui-prmd/" alt = "UIPRMD Database" >
+  <a href = "https://www.webpages.uidaho.edu/ui-prmd/" alt = "UIPRMD Database" > Click Here</a>
 </p>
-<a href = "https://github.com/CMU-Perceptual-Computing-Lab/openpose"></a>
+<a href = "https://github.com/CMU-Perceptual-Computing-Lab/openpose">Openpose Git Repository</a>
 <h3>Product Requirements</h3>
 <ul>
   <li>Analyze at least one exercise (Deep Squat) </li>
