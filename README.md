@@ -27,6 +27,11 @@ Link to the paper published by Dr. Alexsandar Vakanski and Dr. Min Xian who deve
   <li>Provide feedback in a reasonable amount of time</li>
   <li>Analyze at least 100 human skeletal movements</li>
 </ul>
+
+<h3>OpenPose</h3>
+<p>We used OpenPose deep learning model to extract skeletal joints from 2D videos.</p>
+<p> Insert Animation Here</p>
+
 <h3>Progress</h3>
 <p>Able to extract skeletal joints from .avi videos for each frame by using OpenPose body_25 model</p>
 <p>Preprocessed data for input into neural network model for training</p>
