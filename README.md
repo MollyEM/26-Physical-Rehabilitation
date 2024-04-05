@@ -36,10 +36,10 @@ Link to the paper published by Dr. Alexsandar Vakanski and Dr. Min Xian who deve
 <img src = "https://github.com/MollyEM/26-Physical-Rehabilitation/blob/main/Final%20Design%20Documentation/Smoothed%20Sequences.png" alt = "Improved Joint Positions vs Frame Count for Random Sequences">
 
 <p>Improved Training Loss</p>
-<img src = "https://github.com/MollyEM/26-Physical-Rehabilitation/blob/main/Final%20Design%20Documentation/Smoothed%20Sequences.png" alt = "Improved training loss">
+<img src = "https://github.com/MollyEM/26-Physical-Rehabilitation/blob/main/Design%20Solution/TrainingLoss.png" alt = "Improved training loss">
 
 <p>Improved Training Vs Testing Predictions</p>
-<img src = "https://github.com/MollyEM/26-Physical-Rehabilitation/blob/main/Final%20Design%20Documentation/Smoothed%20Sequences.png" alt = "Improved Training Vs Testing Predictions">
+<img src = "https://github.com/MollyEM/26-Physical-Rehabilitation/blob/main/Design%20Solution/TrainingVsTesting.png" alt = "Improved Training Vs Testing Predictions">
 
 <h3>Currently Working On:</h3>
 <ul>
