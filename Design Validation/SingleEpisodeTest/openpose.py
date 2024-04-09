@@ -2,8 +2,8 @@
 # 1. (in an argument specified directoy) mp4 videos with overlayed points
 # 2. (in the (could be new) tableData directory) csv files with the estimated points
 #    where each row is a frame, and 
-#    where the columns are (joint_0_x, joint_0_y, joint_0_confidence, joint_1_x, joint_1_y, joint_1_confidence,...24)
-
+#    where the columns are (joint_0_x, joint_0_y, joint_1_x, joint_1_y, ...24)
+#as of right now, confidences are not included, and the columns are shifted over 0x,0y,1x,1y,...
 import cv2
 import os
 import sys
@@ -28,7 +28,7 @@ def framestep(cap, data_matrix):
     i = 0
     while curr_frame < frame_count:
         ret, frame = cap.read()
-        if curr_frame % 5 == 0:
+        if curr_frame % 100 == 0:
             print("starting frame: ", i)
         new_vid.append(pose(frame, curr_frame, data_matrix))
         i+=1
@@ -235,7 +235,7 @@ def save_to_csv(good_points, path):
         # Write header row with joint information - commented out because we dont need a header
         header = []
         for joint_index in range(num_joints):
-            header.extend([f'joint_{joint_index}_x', f'joint_{joint_index}_y', f'joint_{joint_index}_confidence'])
+            header.extend([f'joint_{joint_index}_x', f'joint_{joint_index}_y'])
         csvwriter.writerow(header)
         '''
 
@@ -244,7 +244,7 @@ def save_to_csv(good_points, path):
             row_data = []
             for joint_index in range(num_joints):
                 x, y, confidence = good_points[joint_index, frame_index]
-                row_data.extend([x, y, confidence])
+                row_data.extend([x, y])
             csvwriter.writerow(row_data)
 
 ##################################################
@@ -277,7 +277,8 @@ if __name__ == "__main__":
     data_matrix = np.zeros((number_of_joints, number_of_frames, 3))
     
     #load the model
-    net = cv2.dnn.readNetFromCaffe('pose_deploy.prototxt', 'pose_iter_584000.caffemodel')
+    openPath = "C:/Users/Molly Meadows/OneDrive - University of Idaho/Documents/2023-2024/Capstone Project/26-Physical-Rehabilitation/Design Validation/"
+    net = cv2.dnn.readNetFromCaffe(openPath + 'pose_deploy.prototxt', openPath + 'pose_iter_584000.caffemodel')
     
     my_video = framestep(cap, data_matrix)
     
