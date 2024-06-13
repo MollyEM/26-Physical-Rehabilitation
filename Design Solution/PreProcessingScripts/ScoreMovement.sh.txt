@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#take in a filename + path from the user as $1, $2 output directory of video of overlayed points
+
+python openpose.py $1 $2
+
+python smoothCSV.py 
